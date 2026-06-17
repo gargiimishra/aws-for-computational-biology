@@ -1,0 +1,5 @@
+aws-for-computational-biology/
+│
+├── README.md
+├── images/
+│   └── aws-workflow.png

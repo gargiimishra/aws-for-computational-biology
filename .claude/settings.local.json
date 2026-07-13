@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la /Users/gargimishra/Documents/GitHub/ 2>/dev/null)",
+      "Read(//Users/gargimishra/Documents/GitHub/**)",
+      "Bash(find /Users/gargimishra/Documents/GitHub -iname \"*compare_ifn*\" -o -iname \"*download_boris*\" -o -iname \"*boris*\" 2>/dev/null; echo \"---mount check---\"; ls \"/Volumes/ramlab/Gargi_server/Boris_Immunity_IFN-I _HiC_data\" 2>/dev/null || echo \"ramlab not mounted here\")",
+      "Read(//Volumes/ramlab/Gargi_server/**)",
+      "WebSearch",
+      "WebFetch(domain:www.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:www.informatics.jax.org)",
+      "WebFetch(domain:genome.ucsc.edu)",
+      "WebFetch(domain:api.genome.ucsc.edu)",
+      "Bash(mkdir -p /Users/gargimishra/Documents/GitHub/IFN_project/src/hic/metadata /Users/gargimishra/Documents/GitHub/IFN_project/src/hic/cli)",
+      "Bash(chmod +x /Users/gargimishra/Documents/GitHub/IFN_project/src/hic/download_boris_hic_data.sh)",
+      "Bash(chmod +x /Users/gargimishra/Documents/GitHub/IFN_project/src/hic/cli/*.sh)"
+    ],
+    "additionalDirectories": [
+      "/Users/gargimishra/Documents/GitHub/IFN_project/src/hic"
+    ]
+  }
+}
